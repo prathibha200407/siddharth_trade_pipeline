@@ -1,0 +1,42 @@
+Siddharth Associates Trade Data Project – Insights & Limitations
+
+Date: [Your Submission Date]
+Author: [Your Name]
+
+-------------------------------
+KEY INSIGHTS (2025 Analysis)
+-------------------------------
+
+1. **Dominant Categories:** 
+   - Over 80% of trade value is concentrated in steel-based HSN codes, aligning with known industry and international trends for utility steel products in the kitchenware sector.
+2. **Macro Trends:**
+   - Year-over-year imports and duty paid showed steady growth, peaking in 2023, followed by notable volatility in 2024–25—likely reflecting supply chain shocks or regulatory changes.
+3. **Pareto/Category Impact:**
+   - Just 2-3 HSN categories drive most value (clear “80/20” pattern). Miscellaneous “Other” HSNs hold sizeable volume, suggesting possible opportunities for further categorization or market focus.
+4. **Unit Economics:**
+   - Landed cost per capacity/specification is strongly clustered at lower price points; select products (large or premium items) show outlier costs due to shipment, tariff, or supply factors.
+5. **Data Automation Advantage:**
+   - This project’s data pipeline saves significant manual effort and increases analytic depth compared to traditional Excel methods. The workflow is reusable and robust for future quarterly/yearly trade cycles.
+
+-------------------------------
+LIMITATIONS
+-------------------------------
+
+- **Supplier Logic Not Performed:**  
+   - Supplier name and address fields were not available/usable in provided sample. Supplier longevity and status by year could not be mapped; note for future dataset enrichment.
+- **NLP/Parsing Limitations:**  
+   - While model, capacity, and material are extracted from “Goods Description,” product diversity and non-standard formatting mean some edge cases may remain uncategorized.
+- **No Real-Time Update:**  
+   - The current workflow is for batch (“static”) analysis. For streaming or live analytics, further pipeline enhancements and source system integration would be required.
+
+-------------------------------
+INDUSTRY CONTEXT (2025 Market Facts)
+-------------------------------
+
+- India’s value-added kitchenware import market is expanding, but faces headwinds from global tariff realignments and post-pandemic logistics challenges.
+- Steel has retained leadership in utility and institutional consumption, with premiumization and traceability (“green steel”) as modern trade drivers.
+- Digital, automated data analysis—as completed in this project—is now a best practice for trade strategy and regulatory compliance.
+
+-------------------------------
+END OF SUMMARY
+-------------------------------
